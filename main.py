@@ -236,7 +236,7 @@ class Player(Creature):
                     Enemy(
                         self.screen,
                         random.randint(0, curses.LINES - 1),
-                        random.randint(5, curses.COLS - 1),
+                        random.randint(5, curses.COLS - 2),
                         icon=random.choice(ENEMIES),
                     )
                 )
